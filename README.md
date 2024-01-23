@@ -26,7 +26,7 @@ https://github.com/osrf/gazebo_models 다운 후 ./gazebo/models에 복사
  2) put_robot_in_world.launch      #지정된 위치로 로봇 배치
  3) gmapping.launch                #mapping node  (*이미 맵을 만들었으니 사용할일 x)
  4) acml.launch                    #localization node 
- 5) navigation.launch              #전체 navigation 진행. (path planning 담당분이 여기에 추가해주시면 됩니다)
+ 5) navigation.launch              #전체 navigation 진행 (robot spawn + acml launch)
 
  
 
